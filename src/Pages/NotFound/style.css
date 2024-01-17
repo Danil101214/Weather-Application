@@ -1,0 +1,9 @@
+.notFound {
+    padding: 41px 0px 61px 0px;
+}
+
+.notFound__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: normal;
+}

@@ -1,0 +1,55 @@
+.weather__item-icon {
+    width: 6px;
+    height: 20px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+}
+.weather__item-icon span,
+.weather__item-icon span::before,
+.weather__item-icon span::after {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.weather__item-icon span::before,
+.weather__item-icon span::after {
+    content: "";
+}
+
+.weather__item-icon span::before {
+    top: -10px;
+}
+
+.weather__item-icon span::after {
+    bottom: -10px;
+}
+
+.weather__item-delete {
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.weather__item-delete.active {
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.weather__item-deleteText {
+    color: rgb(230, 20, 20);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}

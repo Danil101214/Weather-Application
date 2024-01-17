@@ -1,0 +1,40 @@
+.aboutUs {
+    padding: 41px 0px 61px 0px;
+}
+
+.aboutUs__body {
+    
+}
+
+.aboutUs__title {
+    text-align: center;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.aboutUs__title:not(:last-child) {
+    margin: 0px 0px 40px 0px;
+}
+
+.aboutUs__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutUs__text {
+    font-size: 24px;
+    max-width: 600px;
+}
+
+.aboutUs__image img {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media(max-width: 961.98px) {
+    .aboutUs__text {
+        margin: 0px 0px 40px 0px;
+    }
+}
