@@ -15,7 +15,7 @@ const AboutUs = () => {
                         : "Hello everyone, this is a weather website, you can write your city in the search and you will get the current weather, write the names of the cities either in English or in Russian, good use!"}
                     </p>
                     <div className="aboutUs__image">
-                        <img src="AboutUs/Girl.png" alt="Girl" />
+                        <img src="../../../public/AboutUs/Girl.png" alt="Girl" />
                     </div>
                 </div>
             </div>

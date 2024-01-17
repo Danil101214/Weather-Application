@@ -12,7 +12,7 @@ const Header = () => {
             <div className="header__body">
                 <div className="header__logo">
                     <Link to={ABOUT_US} className="header__logo-link">
-                        <img src="logo/logo.svg" alt="logo" />
+                        <img src="../../../public/logo/logo.svg" alt="logo" />
                     </Link>
                 </div>
                 <nav className="header__menu">
