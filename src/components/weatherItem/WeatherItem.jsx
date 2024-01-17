@@ -13,7 +13,7 @@ const WeatherItem = ({item, weather, setWeather}) => {
             <div className="weather__header">
                 <div className="weather__header-image">
                     {description == 'облачно с прояснениями' && <img src="Weather/cloudySun.png" alt="cloudySun" />}
-                    {description == 'пасмурно' && <img src="public/Weather/cloudy.png" alt="cloudy" />}
+                    {description == 'пасмурно' && <img src="Weather/cloudy.png" alt="cloudy" />}
                     {(description == 'переменная облачность' ||
                     description == 'небольшая облачность') && <img src="Weather/cloudy.png" alt="timeCloudy" />}
                     {(description == 'небольшой снег' || description == 'снегопад' || description == 'снег' || description == 'небольшой снегопад') && 

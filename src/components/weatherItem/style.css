@@ -90,23 +90,11 @@
   .weather__column {
     flex: 1 1 45%;
   }
-  .weather__column:nth-child(2n) {
-    margin-right: 0px;
-  }
-  .weather__information-ImageText img {
-    margin: 0px 4.5px 0px 0px;
-  }
-}
-
-@media(max-width: 1047.98px) {
   .weather__column:nth-child(n) {
     margin-right: 10px;
   }
-}
-
-@media(max-width: 1017.98px) {
-  .weather__column:nth-child(n) {
-    margin-right: 0px;
+  .weather__information-ImageText img {
+    margin: 0px 4.5px 0px 0px;
   }
 }
 

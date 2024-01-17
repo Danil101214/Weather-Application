@@ -9,7 +9,7 @@ const Input = ({city, setCity, text, setText}) => {
         event.preventDefault();
         const button = event._reactName;
         if(button == 'onClick') {
-            setCity(place);
+            setCity(place.toLowerCase());
             setPlace('')
         }
     }

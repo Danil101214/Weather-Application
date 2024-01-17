@@ -20,6 +20,7 @@
     padding: 23px 94px;
     flex-wrap: wrap;
     align-items: center;
+    flex-direction: row-reverse;
   }
   .weather__body.active {
     flex-direction: column;
@@ -34,9 +35,13 @@
   @media(max-width: 1077.98px) {
     .weather__body {
       justify-content: center;
-    }
-    .weather__body {
       padding: 10px;
+    }
+  }
+
+  @media(max-width: 929.98px) {
+    .weather__body {
+      flex-direction: column-reverse;
     }
   }
 
