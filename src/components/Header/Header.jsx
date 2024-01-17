@@ -3,6 +3,7 @@ import './style.css'
 import { Link } from 'react-router-dom'
 import { ABOUT_US, WEATHER } from '../constants';
 import { LanguageContext } from '../../App';
+import logo from '../../../public/logo/logo.svg'
 
 const Header = () => {
     const {language, setLanguage} = useContext(LanguageContext)
@@ -12,7 +13,7 @@ const Header = () => {
             <div className="header__body">
                 <div className="header__logo">
                     <Link to={ABOUT_US} className="header__logo-link">
-                        <img src="../../../public/logo/logo.svg" alt="logo" />
+                        <img src={logo} alt="logo" />
                     </Link>
                 </div>
                 <nav className="header__menu">

@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import './style.css'
 import { LanguageContext } from '../../App'
+import Girl from '../../../public/AboutUs/Girl.png'
 
 const AboutUs = () => {
     const {language} = useContext(LanguageContext)
@@ -15,7 +16,7 @@ const AboutUs = () => {
                         : "Hello everyone, this is a weather website, you can write your city in the search and you will get the current weather, write the names of the cities either in English or in Russian, good use!"}
                     </p>
                     <div className="aboutUs__image">
-                        <img src="../../../public/AboutUs/Girl.png" alt="Girl" />
+                        <img src={Girl} alt="Girl" />
                     </div>
                 </div>
             </div>

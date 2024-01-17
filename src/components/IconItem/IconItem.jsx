@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import './style.css'
 import { LanguageContext } from '../../App';
 
-const Icon = ({item, weather, setWeather}) => {
+const IconItem = ({item, weather, setWeather}) => {
     const [isActive, setIsActive] = useState(false);
     const {language} = useContext(LanguageContext)
     
@@ -26,4 +26,4 @@ const Icon = ({item, weather, setWeather}) => {
   )
 }
 
-export default Icon;
+export default IconItem;
