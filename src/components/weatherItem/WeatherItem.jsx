@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './style.css'
-import Icon from '../icon/icon';
+import Icon from '../Icon/Icon';
 import { LanguageContext } from '../../App';
 
 const WeatherItem = ({item, weather, setWeather}) => {
