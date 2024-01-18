@@ -15,7 +15,7 @@ const Weather = () => {
     let weatherLocal = JSON.parse(localStorage.getItem('weather')) || [];
     const weatherInformation = useCallback(async () => {
         if(city.length > 3) {
-            if(weatherLocal.length >= 1 && weatherLocal.find((item) => item.name == city)) {
+            if(weatherLocal.length >= 1 && weatherLocal.find((item) => item.name.toLowerCase() == city)) {
                 setLoading(true);
                 setText(language == "ru" ? "Ви вже писали це місто, не повторюйтесь" : "You have already written this city, do not repeat yourself")
                 setLoading(false);
